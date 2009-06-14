@@ -1,0 +1,18 @@
+%
+% This is from  ML_partIII.pdf (in ~/weka/book/**...)
+%
+@relation  shape
+@attribute width  real
+@attribute height real
+@attribute sides  real
+@attribute class  {standing, lying}
+
+@data
+2,4,4,standing
+3,6,4,standing
+4,3,4,lying
+7,8,3,standing
+7,6,3,lying
+2,9,4,standing
+9,1,4,lying
+10,2,3,lying
